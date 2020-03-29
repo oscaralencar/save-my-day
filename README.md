@@ -3,7 +3,7 @@ Links/códigos úteis que salvam o dia
 
 ## Javascript
 
-Converte File para base64
+### Converte File para base64
 ```
 /**
  * Converte File para Base64
@@ -19,3 +19,6 @@ toBase64(file) {
     })
 }
 ```
+
+### Arquivo salvando em branco com FileSaver
+https://stackoverflow.com/questions/33100281/angularjs-filesaver-producing-empty-file
