@@ -22,3 +22,9 @@ toBase64(file) {
 
 ### Arquivo salvando em branco com FileSaver
 https://stackoverflow.com/questions/33100281/angularjs-filesaver-producing-empty-file
+
+## VueJs
+### Quasar
+
+#### Tabs validação
+https://forum.quasar-framework.org/topic/5176/multiple-tabs-with-q-inputs-keep-refs-for-validation/4
