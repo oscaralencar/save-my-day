@@ -24,7 +24,28 @@ toBase64(file) {
 https://stackoverflow.com/questions/33100281/angularjs-filesaver-producing-empty-file
 
 ## VueJs
+### Geral
+#### Axios get concatenar filtros
+```
+import Qs from 'qs'
+
+consultar: (filtro) => {
+  if (filtro.dataEnvio) {
+    filtro.dataEnvio = dateFormatterMixin.methods.convertDateBrToUs(filtro.dataEnvio)
+  }
+  return http.get(`/operacao`, {
+    params: filtro, paramsSerializer: function (params) { 
+      return Qs.stringify(params, { arrayFormat: 'brackets' })
+    }
+  })
+}
+
+```
+
+
 ### Quasar
 
 #### Tabs validação
 https://forum.quasar-framework.org/topic/5176/multiple-tabs-with-q-inputs-keep-refs-for-validation/4
+
+
