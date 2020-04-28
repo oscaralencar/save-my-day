@@ -27,6 +27,7 @@ https://stackoverflow.com/questions/33100281/angularjs-filesaver-producing-empty
 ### Geral
 #### Axios get concatenar filtros
 ```
+//https://www.npmjs.com/package/qs
 import Qs from 'qs'
 
 consultar: (filtro) => {
